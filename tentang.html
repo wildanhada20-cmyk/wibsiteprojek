@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Saya</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #3498db;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            font-size: 2.8rem;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            font-size: 1.3rem;
+            color: #7f8c8d;
+            max-width: 600px;
+            margin: 0 auto 20px;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .social-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: #3498db;
+            color: white;
+            border-radius: 50%;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .social-link:hover {
+            transform: translateY(-5px);
+            background: #2980b9;
+        }
+        
+        section {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+            display: flex;
+            align-items: center;
+        }
+        
+        h2 i {
+            margin-right: 10px;
+            color: #3498db;
+        }
+        
+        .about-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+        }
+        
+        .about-text {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .about-details {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .detail-item {
+            margin-bottom: 15px;
+            display: flex;
+        }
+        
+        .detail-label {
+            font-weight: bold;
+            color: #3498db;
+            display: inline-block;
+            width: 120px;
+        }
+        
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .skill-category {
+            flex: 1;
+            min-width: 250px;
+        }
+        
+        .skill-item {
+            margin-bottom: 15px;
+        }
+        
+        .skill-name {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        
+        .skill-bar {
+            height: 10px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .skill-level {
+            height: 100%;
+            background: linear-gradient(to right, #3498db, #2c3e50);
+            border-radius: 5px;
+        }
+        
+        .hobbies-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .hobby-item {
+            background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+        }
+        
+        footer {
+            text-align: center;
+            color: #7f8c8d;
+            margin-top: 50px;
+            padding: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .about-content {
+                flex-direction: column;
+            }
+            h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="ega.jpeg" alt="Foto Profil" class="profile-img">
+            <h1>Ega satria pradita</h1>
+            <p class="tagline"></p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/ega_____03?igsh=ZHMxOGcxN3BwMmxn" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com/" class="social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+        </header>
+
+        <section id="tentang">
+            <h2><i class="fas fa-user"></i> Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-text">Web
+                    <p>Halo! Saya Ega satria pradita, seorang pelajar smk al falah tanjungjaya berjurusan pplg {pengembangan perangkat lunak dan gim}
+                        <p>Saya percaya bahwa teknologi harus memudahkan kehidupan manusia, Saya selalu berusaha untuk terus belajar dan berkembang dalam bidang yang saya geluti.</p>
+                        <p>Di luar jam pelajaran, menjelajahi framework JavaScript baru, Saya percaya bahwa keseimbangan antara pelajar dan kehidupan pribadi sangat penting untuk produktivitas dan kebahagiaan.</p>
+                </div>
+                <div class="about-details">
+                    <div class="detail-item">
+                        <span class="detail-label">Nama:</span>
+                        <span>Ega satria pradita</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Usia:</span>
+                        <span>18 tahun</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Lokasi:</span>
+                        <span>cikatomas,tasikmalaya</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Email:</span>
+                        <span>egapradita02@gmail.com</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Telepon:</span>
+                        <span>+62 81223864363</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Status:</span>
+                        <span>pelajar</span>
+                    </div>
+                </div>
+            </div>
+        </section>
